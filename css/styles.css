@@ -47,9 +47,10 @@ main{
 }
 
 footer{
-    background: gray;
+    background: #000;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .lr-layout{
     padding: 0px 10px 0px 10px;
@@ -172,7 +173,16 @@ header{
   background-image: url('../assets/codeim.jpg');    
     height:400px;
 }
-/***** End of HeaderCotent Styles *****/
+/***** End of Header Cotent Styles *****/
+
+
+
+/***** Footer Cotent Styles *****/
+footer p{
+    letter-spacing: 2px;
+    color:#ffffff;
+}
+/***** End of Footer Cotent Styles *****/
 
 
 /**********---------- End of Content Styles ----------**********/
