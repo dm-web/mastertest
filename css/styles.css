@@ -13,11 +13,12 @@ body{
 
 
 
-/**********---------- Layout ----------**********/
+/**********---------- Basic Layout ----------**********/
 
 /**********  Wrapper **********/
 .wrapper{
-    /*padding:0 20px 0 20px;*/    /************ Boxed Layout or use width ***********/
+    /*padding:0 20px 0 20px;*/    
+    /************ Boxed Layout or use width ***********/
 }
 /********** End of Wrap **********/
 
@@ -53,5 +54,116 @@ footer{
 .lr-layout{
     padding: 0px 10px 0px 10px;
 }
+.lr-content{
+    padding: 0px 10px 0px 10px;
+}
 
-/**********---------- End of Layout ----------**********/
+/**********---------- End of Basic Layout ----------**********/
+
+
+
+/**********---------- Inner Layout ----------**********/
+
+
+/***** Top Bar Inner Layout *****/
+.top-bar-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+     padding: 15px 0 15px 0;
+}
+
+.top-bar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.top-bar-sec{
+ 
+    padding-top:8px 0 8px 0;
+    margin: -25px 0 -25px 0;    
+	font-size:18px;
+
+}
+/***** End of Top Bar Inner Layout *****/
+
+
+/***** Nav Inner Layout *****/
+
+.navbar-wrap{
+    justify-content:center;
+    align-self: center;
+    width:100%;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    padding:5px;    
+}
+/***** End of Nav Bar Inner Layout *****/
+
+
+/***** Logo Inner Layout *****/
+
+.logo{
+    padding:10px;
+}
+
+
+.logo img{
+      width:210px;
+}
+/***** End of Logo Inner Layout *****/
+
+
+
+/**********---------- End of Inner Layout ----------**********/
+
+
+
+/**********---------- Content Styles ----------**********/
+
+/***** Top Bar Cotent Styles *****/
+
+.top-bar-sec p{
+    display:flex;
+}
+
+.top-bar-sec span{
+    font-size: 28px;
+    display:block;
+    padding:15px 0 15px 0; 
+}
+
+
+.top-bar-left span{
+padding: 0 7px 0 0;
+     font-size: 22px;
+}
+/***** End of Top Bar Cotent Styles *****/
+
+/***** Nav Cotent Styles *****/
+
+.navbar a {
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:last-child{
+    
+    border-radius:5px;
+    border:solid 1px #fdfdfd;   
+
+}
+/***** End of Nav Cotent Styles *****/
+
+
+
+/**********---------- End of Content Styles ----------**********/
