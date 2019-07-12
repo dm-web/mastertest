@@ -71,15 +71,24 @@ footer{
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
+<<<<<<< HEAD
     padding: 18px 0 0 0;
+=======
+    padding: 15px 0 15px 0;
+>>>>>>> headerA
 }
 
 .top-bar-right {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+<<<<<<< HEAD
     width:100%;
 
+=======
+    width: 100%;
+    padding: 15px 0 15px 0;
+>>>>>>> headerA
 }
 
 .top-bar-sec{
@@ -166,6 +175,13 @@ padding: 0 7px 0 0;
 }
 /***** End of Nav Cotent Styles *****/
 
+
+/***** Header Cotent Styles *****/
+header{
+  background-image: url('../assets/codeim.jpg');    
+    height:400px;
+}
+/***** End of HeaderCotent Styles *****/
 
 
 /**********---------- End of Content Styles ----------**********/
