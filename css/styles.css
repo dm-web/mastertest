@@ -35,7 +35,6 @@ nav{
 }
 
 header{
-    background: blue;
     display: flex;
     flex-direction: row;
 }
@@ -166,6 +165,13 @@ padding: 0 7px 0 0;
 }
 /***** End of Nav Cotent Styles *****/
 
+
+/***** Header Cotent Styles *****/
+header{
+  background-image: url('../assets/codeim.jpg');    
+    height:400px;
+}
+/***** End of HeaderCotent Styles *****/
 
 
 /**********---------- End of Content Styles ----------**********/
